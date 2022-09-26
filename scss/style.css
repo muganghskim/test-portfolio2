@@ -41,6 +41,9 @@ body {
   line-height: 100px;
   margin-left: 70px;
 }
+#header .center .gnb > .list:hover > a{
+  color: red;
+}
 #header .center .gnb > .list > a {
   color: #000;
 }
@@ -86,6 +89,7 @@ body {
   width: 20%;
 }
 #container .cont1 .center .slider .btnSet > div {
+  cursor: pointer;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
